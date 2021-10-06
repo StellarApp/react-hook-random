@@ -33,6 +33,9 @@ export default function Navbar() {
       <NavLink activeClassName="active" to="/use-state">
         UseState
       </NavLink>
+      <NavLink activeClassName="active" to="/rating">
+        Rating
+      </NavLink>
     </nav>
   );
 }
