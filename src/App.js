@@ -11,6 +11,7 @@ import Bark from "./hook/Bark";
 import InputStyle from "./hook/InputStyle";
 import UseState from "./hook/UseState";
 import Rating from "./hook/Rating";
+import Trees from "./Trees";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/input-style" component={InputStyle} />
         <Route path="/use-state" component={UseState} />
         <Route path="/rating" component={Rating} />
+        <Route path="/trees" component={Trees} />
         <Route path="*" component={NotFound} />
       </Switch>
     </Router>

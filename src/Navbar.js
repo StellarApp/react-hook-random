@@ -36,6 +36,9 @@ export default function Navbar() {
       <NavLink activeClassName="active" to="/rating">
         Rating
       </NavLink>
+      <NavLink activeClassName="active" to="/trees">
+        Trees
+      </NavLink>
     </nav>
   );
 }
