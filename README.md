@@ -1,2 +1,2 @@
-# react-hook-random
+# react-hook
 Created with CodeSandbox
